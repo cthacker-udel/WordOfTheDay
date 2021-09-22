@@ -3,14 +3,18 @@
     {
 
         "Q": "What is React-Bootstrap?",
-        "A": "It is the bootstrap library configured to run in React"
+        "A": "It is the bootstrap library configured to run in React",
+        "P": 15,
+        "kind": "Medium"
 
     },
 
     {
 
         "Q": "What is Bootstrap-CSS?",
-        "A": "It is the bootstrap library configured to run in CSS"
+        "A": "It is the bootstrap library configured to run in CSS",
+        "P": 15,
+        "kind": "Medium"
 
     },
 
@@ -18,35 +22,44 @@
     {
 
         "Q": "What is React-Javascript?",
-        "A": "It is a library in Javascript that aids in the creation, implementation, and sustainability of developing web applications"
+        "A": "It is a library in Javascript that aids in the creation, implementation, and sustainability of developing web applications",
+        "P": 10,
+        "kind": "Easy"
 
     },
 
     {
 
         "Q": "What is React-Typescript",
-        "A": "It is a library in Typescript that is branched off of ReactJS, in which types are checked upon the compiling stage"
+        "A": "It is a library in Typescript that is branched off of ReactJS, in which types are checked upon the compiling stage",
+        "P": 5,
+        "kind": "Easy"
 
     },
 
     {
 
         "Q": "What is a component in React?",
-        "A": "A component is a part of the web page that is interactive or designed using React"
+        "A": "A component is a part of the web page that is interactive or designed using React",
+        "P": 10,
+        "kind": "Easy"
 
     },
 
     {
 
         "Q": "What does useState do in React?",
-        "A": "Use state effectively as it would in the class-based react, state is used when the value will change, props is used when the value will not change"
+        "A": "Use state effectively as it would in the class-based react, state is used when the value will change, props is used when the value will not change",
+        "P": 20,
+        "kind": "Hard"
 
     },
 
     {
 
         "Q": "What is the purposes of properties with React components?",
-        "A": "The purpose of properties is to pass components values that will not change"
+        "A": "The purpose of properties is to pass components values that will not change",
+        "P": 10
 
     }
 
