@@ -3,13 +3,43 @@ import './App.css';
 import CARDS from "./assets/cards.json";
 import {CardViewer} from "./components/CardViewer";
 import {ControlPanel} from "./components/ControlPanel";
+import { Row, Col, Container } from "react-bootstrap";
+import { Timestamp } from "./components/Timestamp";
+
 
 function App(): JSX.Element {
   return (
-    <div className="App">
-      <CardViewer />
-      <ControlPanel />
-    </div>
+    <Container>
+
+      <Row>
+
+        <Col>
+        
+          <CardViewer />
+        
+        </Col>
+
+      </Row>
+
+      <Row>
+
+        <Col>
+        
+          <ControlPanel />
+        
+        </Col>
+
+        <Col>
+        
+          <Timestamp />
+        
+        </Col>
+
+
+      </Row>
+
+
+    </Container>
   );
 }
 
