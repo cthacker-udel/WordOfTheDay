@@ -1,12 +1,21 @@
-import { Button } from "react-bootstrap";
+import { Button, ButtonGroup } from "react-bootstrap";
 
 export const ControlPanel = (): JSX.Element => {
+
+    // button for next card, shuffling cards, and adding cards as well, and tracking points, streaks 
 
     return(
 
         <>
 
-            <h3 style={{textAlign: "center"}}>React Quiz</h3>
+            <ButtonGroup vertical>
+                
+                <Button>Next Card</Button>
+                <Button>Shuffle Cards</Button>
+                <Button>Add card</Button>
+                
+                
+            </ButtonGroup>
 
         </>
 

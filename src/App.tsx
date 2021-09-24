@@ -4,7 +4,6 @@ import CARDS from "./assets/cards.json";
 import {CardViewer} from "./components/CardViewer";
 import {ControlPanel} from "./components/ControlPanel";
 import { Row, Col, Container } from "react-bootstrap";
-import { Timestamp } from "./components/Timestamp";
 
 
 function App(): JSX.Element {
@@ -15,19 +14,27 @@ function App(): JSX.Element {
 
         <Col>
         
-          <ControlPanel />
-        
+        <h3 style={{textAlign: "center", color: "white"}}>Welcome to the React Quiz!</h3>
+
         </Col>
+
+      </Row>
+
+      <Row>
 
         <Col>
         
-          <Timestamp />
+          <ControlPanel />
         
         </Col>
 
       </Row>
 
       <Row>
+
+        <Col>
+
+        </Col>
 
         <Col>
 
