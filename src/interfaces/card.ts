@@ -1,19 +1,20 @@
 //export type flashCardType = "Easy" | "Medium" | "Hard";
 
-export enum FlashCardKind{
+//export enum FlashCardKind{
 
-    Easy = "Easy", Medium = "Medium", Hard = "Hard"
+//    Easy = "Easy", Medium = "Medium", Hard = "Hard"
 
-}
+//}
 
-export interface flashCard {
+export interface FlashCard {
 
     Q: string
     A: string
     B: string
     C: string
+    D: string
     AS: string
     P: number
-    kind: FlashCardKind
+    kind: string
 
 }
