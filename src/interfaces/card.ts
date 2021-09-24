@@ -10,6 +10,9 @@ export interface flashCard {
 
     Q: string
     A: string
+    B: string
+    C: string
+    AS: string
     P: number
     kind: FlashCardKind
 
