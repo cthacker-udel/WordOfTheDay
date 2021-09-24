@@ -6,7 +6,7 @@ export const ControlPanel = (): JSX.Element => {
 
         <>
 
-            <Button>Control Panel</Button>
+            <h3 style={{textAlign: "center"}}>React Quiz</h3>
 
         </>
 

@@ -6,12 +6,12 @@ export const CardViewer = (): JSX.Element => {
 
         <>
 
-            <Card style={{width: "18px"}}>
+            <Card style={{width: "280px"}}>
             
                 <Card.Body>
 
-                    <Card.Title>{""}</Card.Title>
-                    <Card.Text>{""}</Card.Text>
+                    <Card.Title>{"This is a card title"}</Card.Title>
+                    <Card.Text>{"This is a card text"}</Card.Text>
                     <Button variant="primary" onClick={() => {console.log("hello");}}>Show Answer</Button>
                 </Card.Body>
             

@@ -15,16 +15,6 @@ function App(): JSX.Element {
 
         <Col>
         
-          <CardViewer />
-        
-        </Col>
-
-      </Row>
-
-      <Row>
-
-        <Col>
-        
           <ControlPanel />
         
         </Col>
@@ -35,6 +25,15 @@ function App(): JSX.Element {
         
         </Col>
 
+      </Row>
+
+      <Row>
+
+        <Col>
+
+          <CardViewer />
+
+        </Col>
 
       </Row>
 
